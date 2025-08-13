@@ -16,7 +16,7 @@ y después que se haya instalado Debian Netinstall CD las siguientes son las dep
 ```bash
 sudo apt install git tint2 picom xfce4-notifyd cbatticon \
     lxappearance lxrandr gnome-icon-theme volumeicon-alsa \
-    numlockx nitrogen obconf lxsession-logout \
+    numlockx nitrogen obconf lxsession-logout lxtask \
     qt5ct papirus-icon-theme xfce4-appfinder
 ```
 
@@ -55,6 +55,7 @@ sudo apt install picom
    - `volumeicon-alsa`: Indicador de volumen de sonido basado en ALSA, con clic derecho se abrirá pavucontrol el cual debe estar instalado por defecto y en caso que no instalarlo.
    - `obconf`: Herramienta para configurar Openbox mediante una interfaz gráfica.
    - `lxsession-logout`: Utilidad para cerrar sesión, apagar o reiniciar el sistema desde Openbox, debe añadirla al panel tint2, abajo dejo un enlace a un tutorial.
+   - `lxtask`: Monitor del sistema ligero
    - `cbatticon`: Icono de estado de batería ligero y rápido, y más
    - `xfce4-notes`: Bloque de notas
 
