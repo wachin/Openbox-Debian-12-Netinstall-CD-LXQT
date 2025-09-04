@@ -23,6 +23,9 @@ pulseaudio --start &
 # Internet
 nm-applet &
 
+# Teclado virtual 
+xvkbd &
+
 # Iniciar lxqt-policykit (autenticación LXQT) para programas que necesitan aumentar los permisos, como synaptic, Discover, Muon, etc
 /usr/bin/lxqt-policykit-agent &
 
@@ -60,6 +63,9 @@ nitrogen --restore &
 
 # Un programa personal:
 python3 /home/wachin/Dev/xsct_gui/xsct_gui.py &
+
+# xinput-plus 🖱️ Ajusta la velocidad del mouse/touchpad en Linux
+python3 /home/wachin/Dev/xinput-plus/xinput-plus.py &
 
 # Icono de estado de batería ligero y rápido, y más
 cbatticon &
