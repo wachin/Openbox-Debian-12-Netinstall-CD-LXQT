@@ -65,7 +65,28 @@ sudo apt install picom
 git clone https://github.com/wachin/Openbox-Debian-12-Netinstall-CD-LXQT ~/.config/openbox
 ```
 
-3. Instalar mi configuración personalizada de tint2 (OPCIONAL)
+3. Qt5Ct utilidad de configuración de Qt5
+
+Si al abrir Qt5Ct te sale un mensaje que dice "No se ha configurado correctamente la aplicación" sigue con este paso, pero si no te sale no.
+
+Si le salió ese mensaje ponga los siguientes dos comandos en una terminal, uno por uno:
+
+```bash
+touch ~/.profile
+
+```
+
+y luego:
+
+```bash
+echo "export QT_QPA_PLATFORMTHEME="qt5ct"" >> ~/.profile
+```
+
+luego que hayas reiniciado al buscar Qt5Ct entre tus programas podrás abrir en la pestaña "Tipos de letra" y cambiar las fuentes
+Este programa sirve para ajustar algunas cosas de las aplicaciones que han sido escritas en Qt5. Como por ejemplo los iconos y el tema.
+
+
+4. Instalar mi configuración personalizada de tint2 (OPCIONAL)
 Si deseas usar el panel tint2 como yo lo tengo configurado sólo haz esto:
 
 ```bash
@@ -74,7 +95,7 @@ git clone https://github.com/wachin/tint2 ~/.config/tint2
 
 Cierra la **sesión** o **reinicia** tu computadora.
 
-4. En la pantalla de inicio de sesión, selecciona **Openbox** como tu entorno de escritorio y accede con tu usuario.
+5. En la pantalla de inicio de sesión, selecciona **Openbox** como tu entorno de escritorio y accede con tu usuario.
 
 ## **3. Configuración inicial de Openbox**
 
