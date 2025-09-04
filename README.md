@@ -97,6 +97,7 @@ Guarda los cambios al terminar y ciérralo.
 
 El archivo `~/.config/openbox/autostart` controla los programas que se ejecutan al iniciar Openbox. A continuación se explican algunas de las funciones de cada uno:
 
+- `cbatticon` → Estado de la batería
 - `nitrogen --restore &` → Restaura el fondo de pantalla previamente configurado con Nitrogen.
 - `picom --experimental-backends &` → Activa el compositor de ventanas para mejorar los efectos visuales como transparencia y sombras.
 - `tint2 &` → Inicia el panel tint2, que proporciona una barra de tareas y un área de notificaciones.
