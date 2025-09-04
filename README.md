@@ -14,10 +14,10 @@ y después que se haya instalado Debian Netinstall CD las siguientes son las dep
 1. Abre una terminal y ejecuta el siguiente comando para instalar **Openbox** y las herramientas adicionales necesarias    
 
 ```bash
-sudo apt install git tint2 picom xfce4-notifyd cbatticon \
+sudo apt install git picom xfce4-appfinder cbatticon \
     lxappearance lxrandr gnome-icon-theme volumeicon-alsa \
     numlockx nitrogen obconf lxsession-logout lxtask \
-    qt5ct papirus-icon-theme xfce4-appfinder
+    qt5ct papirus-icon-theme tint2
 ```
 
 
