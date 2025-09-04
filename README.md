@@ -62,7 +62,7 @@ sudo apt install picom
 2. Descarga y configura los archivos de Openbox ejecutando:
 
 ```bash
-git clone https://github.com/wachin/Openbox-Debian-12-Netinstall-CD-LXQT-64bit ~/.config/openbox
+git clone https://github.com/wachin/Openbox-Debian-12-Netinstall-CD-LXQT ~/.config/openbox
 ```
 
 3. Instalar mi configuración personalizada de tint2 (OPCIONAL)
