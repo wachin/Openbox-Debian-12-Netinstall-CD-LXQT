@@ -26,6 +26,9 @@ nm-applet &
 # Teclado virtual 
 xvkbd &
 
+# Estado de la batería
+cbatticon &
+
 # Habilitar notificaciones del Sistema con el paquete lxqt-notificationd
 lxqt-notificationd &
 
