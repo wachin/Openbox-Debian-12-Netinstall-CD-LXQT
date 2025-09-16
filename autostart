@@ -77,7 +77,8 @@ sleep 4; xinput-gui.py &
 
 
 # Notas
-xfce4-notes &
+#xfce4-notes &
+feathernotes /home/wachin/Documentos/wachi.fnx &
 
 # Para asegurarme de que el idioma del teclado esté en "Español España"
 # Pues todos mis teclados son "Español España" aunque yo vivo en Ecuador
