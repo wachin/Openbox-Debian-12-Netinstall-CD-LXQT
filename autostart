@@ -87,4 +87,5 @@ feathernotes /home/wachin/Documentos/wachi.fnx &
 setxkbmap -layout es &
 
 
-
+# Conector KDEconnect
+kdeconnect-indicator &
